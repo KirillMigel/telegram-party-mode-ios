@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000019 /* LiquidChatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000014 /* LiquidChatsApp.swift */; };
+		A00000000000000000000020 /* Motion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000015 /* Motion.swift */; };
+		A00000000000000000000021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000016 /* Assets.xcassets */; };
+		A00000000000000000000026 /* GroupDraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000024 /* GroupDraft.swift */; };
+		A00000000000000000000027 /* GroupingChatList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000025 /* GroupingChatList.swift */; };
+		A00000000000000000000029 /* LiquidButtonMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000028 /* LiquidButtonMotion.swift */; };
+		A00000000000000000000032 /* CraftMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000030 /* CraftMotion.swift */; };
+		A00000000000000000000033 /* EmotionalText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000031 /* EmotionalText.swift */; };
+		A00000000000000000000037 /* AvatarGenie.metal in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000034 /* AvatarGenie.metal */; };
+		A00000000000000000000038 /* GenieRowText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000035 /* GenieRowText.swift */; };
+		A00000000000000000000039 /* GroupOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000036 /* GroupOnboarding.swift */; };
+		A00000000000000000000042 /* AvatarJourney.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000040 /* AvatarJourney.swift */; };
+		A00000000000000000000043 /* ChatPhotoBackdrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000041 /* ChatPhotoBackdrop.swift */; };
+		A00000000000000000000046 /* GroupWelcomeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000044 /* GroupWelcomeScene.swift */; };
+		A00000000000000000000047 /* WelcomeLens.metal in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000045 /* WelcomeLens.metal */; };
+		A00000000000000000000050 /* ThemeParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000048 /* ThemeParty.swift */; };
+		A00000000000000000000051 /* DiscoBallGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000049 /* DiscoBallGeometry.swift */; };
+		A00000000000000000000053 /* PartyOrbitPhysics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000052 /* PartyOrbitPhysics.swift */; };
+		A00000000000000000000055 /* PartyInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000054 /* PartyInteraction.swift */; };
+		A00000000000000000000057 /* AvatarPhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000056 /* AvatarPhotoLibrary.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00000000000000000000009 /* LiquidChats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = LiquidChats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00000000000000000000014 /* LiquidChatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidChatsApp.swift; sourceTree = "<group>"; };
+		A00000000000000000000015 /* Motion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion.swift; sourceTree = "<group>"; };
+		A00000000000000000000016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A00000000000000000000024 /* GroupDraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDraft.swift; sourceTree = "<group>"; };
+		A00000000000000000000025 /* GroupingChatList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupingChatList.swift; sourceTree = "<group>"; };
+		A00000000000000000000028 /* LiquidButtonMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidButtonMotion.swift; sourceTree = "<group>"; };
+		A00000000000000000000030 /* CraftMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraftMotion.swift; sourceTree = "<group>"; };
+		A00000000000000000000031 /* EmotionalText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionalText.swift; sourceTree = "<group>"; };
+		A00000000000000000000034 /* AvatarGenie.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = AvatarGenie.metal; sourceTree = "<group>"; };
+		A00000000000000000000035 /* GenieRowText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenieRowText.swift; sourceTree = "<group>"; };
+		A00000000000000000000036 /* GroupOnboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupOnboarding.swift; sourceTree = "<group>"; };
+		A00000000000000000000040 /* AvatarJourney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarJourney.swift; sourceTree = "<group>"; };
+		A00000000000000000000041 /* ChatPhotoBackdrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPhotoBackdrop.swift; sourceTree = "<group>"; };
+		A00000000000000000000044 /* GroupWelcomeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupWelcomeScene.swift; sourceTree = "<group>"; };
+		A00000000000000000000045 /* WelcomeLens.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = WelcomeLens.metal; sourceTree = "<group>"; };
+		A00000000000000000000048 /* ThemeParty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeParty.swift; sourceTree = "<group>"; };
+		A00000000000000000000049 /* DiscoBallGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoBallGeometry.swift; sourceTree = "<group>"; };
+		A00000000000000000000052 /* PartyOrbitPhysics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyOrbitPhysics.swift; sourceTree = "<group>"; };
+		A00000000000000000000054 /* PartyInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyInteraction.swift; sourceTree = "<group>"; };
+		A00000000000000000000056 /* AvatarPhotoLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPhotoLibrary.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00000000000000000000012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00000000000000000000003 = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000008 /* LiquidChats */,
+				A00000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000009 /* LiquidChats.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000008 /* LiquidChats */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000014 /* LiquidChatsApp.swift */,
+				A00000000000000000000015 /* Motion.swift */,
+				A00000000000000000000016 /* Assets.xcassets */,
+				A00000000000000000000024 /* GroupDraft.swift */,
+				A00000000000000000000025 /* GroupingChatList.swift */,
+				A00000000000000000000028 /* LiquidButtonMotion.swift */,
+				A00000000000000000000030 /* CraftMotion.swift */,
+				A00000000000000000000031 /* EmotionalText.swift */,
+				A00000000000000000000034 /* AvatarGenie.metal */,
+				A00000000000000000000035 /* GenieRowText.swift */,
+				A00000000000000000000036 /* GroupOnboarding.swift */,
+				A00000000000000000000040 /* AvatarJourney.swift */,
+				A00000000000000000000041 /* ChatPhotoBackdrop.swift */,
+				A00000000000000000000044 /* GroupWelcomeScene.swift */,
+				A00000000000000000000045 /* WelcomeLens.metal */,
+				A00000000000000000000048 /* ThemeParty.swift */,
+				A00000000000000000000049 /* DiscoBallGeometry.swift */,
+				A00000000000000000000052 /* PartyOrbitPhysics.swift */,
+				A00000000000000000000054 /* PartyInteraction.swift */,
+				A00000000000000000000056 /* AvatarPhotoLibrary.swift */,
+			);
+			path = LiquidChats;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00000000000000000000005 /* LiquidChats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000010 /* Build configuration list for PBXNativeTarget "LiquidChats" */;
+			buildPhases = (
+				A00000000000000000000011 /* Sources */,
+				A00000000000000000000012 /* Frameworks */,
+				A00000000000000000000013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiquidChats;
+			productName = LiquidChats;
+			productReference = A00000000000000000000009 /* LiquidChats.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2700;
+			};
+			buildConfigurationList = A00000000000000000000002 /* Build configuration list for PBXProject "LiquidChats" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00000000000000000000003;
+			productRefGroup = A00000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00000000000000000000005 /* LiquidChats */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00000000000000000000013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000021 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00000000000000000000011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000019 /* LiquidChatsApp.swift in Sources */,
+				A00000000000000000000020 /* Motion.swift in Sources */,
+				A00000000000000000000026 /* GroupDraft.swift in Sources */,
+				A00000000000000000000027 /* GroupingChatList.swift in Sources */,
+				A00000000000000000000029 /* LiquidButtonMotion.swift in Sources */,
+				A00000000000000000000032 /* CraftMotion.swift in Sources */,
+				A00000000000000000000033 /* EmotionalText.swift in Sources */,
+				A00000000000000000000037 /* AvatarGenie.metal in Sources */,
+				A00000000000000000000038 /* GenieRowText.swift in Sources */,
+				A00000000000000000000039 /* GroupOnboarding.swift in Sources */,
+				A00000000000000000000042 /* AvatarJourney.swift in Sources */,
+				A00000000000000000000043 /* ChatPhotoBackdrop.swift in Sources */,
+				A00000000000000000000046 /* GroupWelcomeScene.swift in Sources */,
+				A00000000000000000000047 /* WelcomeLens.metal in Sources */,
+				A00000000000000000000050 /* ThemeParty.swift in Sources */,
+				A00000000000000000000051 /* DiscoBallGeometry.swift in Sources */,
+				A00000000000000000000053 /* PartyOrbitPhysics.swift in Sources */,
+				A00000000000000000000055 /* PartyInteraction.swift in Sources */,
+				A00000000000000000000057 /* AvatarPhotoLibrary.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A00000000000000000000006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A00000000000000000000007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A00000000000000000000017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Choose photos from your library to set a group avatar.";
+				INFOPLIST_FILE = LiquidChats/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.telegram-party-mode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A00000000000000000000018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Choose photos from your library to set a group avatar.";
+				INFOPLIST_FILE = LiquidChats/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.telegram-party-mode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00000000000000000000002 /* Build configuration list for PBXProject "LiquidChats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000006 /* Debug */,
+				A00000000000000000000007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000010 /* Build configuration list for PBXNativeTarget "LiquidChats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000017 /* Debug */,
+				A00000000000000000000018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00000000000000000000001 /* Project object */;
+}
